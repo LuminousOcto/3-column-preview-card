@@ -93,3 +93,15 @@ a {
     margin-bottom: 10%;
   }
 }
+
+@media (max-width: 425px) {
+  button {
+    width: 50%;
+  }
+
+  /* Preview Card */
+  #preview-card {
+    flex-direction: column;
+    margin-bottom: 10%;
+  }
+}
